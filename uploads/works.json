@@ -1,0 +1,88 @@
+[
+  {
+    "coverImage": "https://uploads.scratch.mit.edu/get_image/project/1240433889_480x360.png",
+    "audioNarration": true,
+    "projectUrl": "https://scratch.mit.edu/projects/1240433889",
+    "rubrikId": "games",
+    "authorId": "Turboschnecke-00",
+    "createdAt": 1791469630791,
+    "sources": "Scratchanleitungen verwendet",
+    "tags": [
+      "Projekt",
+      "Schülerarbeit",
+      "Digital",
+      "Scratch"
+    ],
+    "qualityChecksConfirmed": [
+      "proofread",
+      "structure",
+      "cover",
+      "media_quality",
+      "copyright",
+      "sources"
+    ],
+    "id": "work-1791469630791",
+    "format": "auto",
+    "date": "Aktuell",
+    "pagesCount": 1,
+    "hasLiked": false,
+    "title": "Magisches Springen in der der Stadt",
+    "summary": "Um bei einem Programmfehler eines Kindes zu helfen, hab ich ein ähnliches Spiel wie seines gebaut.\nHier die Anleitung: Wenn du auf die Leertaste drückst, springt das Pferd hoch. Schau, dass es jeweils über die Zauberhüte springt. Wenn du es schaffst, erhältst du einen Punkt, wenn nicht, verlierst du!",
+    "creationTool": "Scratch & Interaktiv",
+    "starsCount": 0,
+    "qualityPassed": true,
+    "schoolYear": "2025/2026",
+    "previewPages": [
+      {
+        "pageNumber": 1,
+        "title": "Springen in der Stadt",
+        "text": "Hier die Spielanleitung:\nWenn du auf die Leertaste drückst, springt das Pferd hoch. Schau, dass es jeweils über die Zauberhüte springst. Wenn du es schaffst, erhältst du einen Punkt, wenn nicht, verlierst du!",
+        "imageUrl": "https://uploads.scratch.mit.edu/get_image/project/1240433889_480x360.png"
+      }
+    ]
+  },
+  {
+    "id": "work-scapefolio",
+    "title": "Kurbeltheater zur Bänderschnecke",
+    "rubrikId": "videos",
+    "authorId": "Turboschnecke-00",
+    "schoolYear": "2025/2026",
+    "creationTool": "Book Creator",
+    "summary": "Auf Tinkercad habe ich ein Kurbeltheater modelliert und mit einem 3D-Drucker ausgedruckt, um den Lebenszyklus einer Bänderschnecke darzustellen. Es soll als Beispiel dazu dienen, wie man ein Kurbeltheater mit einem naturwissenschaftlichen Thema verbinden kann.",
+    "coverImage": "https://assets.api.bookcreator.com/OKJbC4h6iX8sUY31rolAdtMEZRJ80gRUPjR-YQJ2ZWw/books/LW5hQKD2Tk-NuyOxCSX3Iw/cover/share",
+    "projectUrl": "https://read.bookcreator.com/OKJbC4h6iX8sUY31rolAdtMEZRJ80gRUPjR-YQJ2ZWw/LW5hQKD2Tk-NuyOxCSX3Iw",
+    "fileUrl": "https://assets.api.bookcreator.com/OKJbC4h6iX8sUY31rolAdtMEZRJ80gRUPjR-YQJ2ZWw/books/LW5hQKD2Tk-NuyOxCSX3Iw/assets/2IhpG8gPTkS_yIF0RRd5BQ.m4v",
+    "audioNarration": false,
+    "pagesCount": 2,
+    "tags": [
+      "Kurbeltheater",
+      "Clipchamp",
+      "Video",
+      "Book Creator",
+      "DIE SCAPES"
+    ],
+    "date": "Oktober 2025",
+    "createdAt": 1741000000000,
+    "starsCount": 0,
+    "hasLiked": false,
+    "qualityPassed": true,
+    "format": "landscape",
+    "previewPages": [
+      {
+        "pageNumber": 1,
+        "title": "Kurbeltheater",
+        "text": "Oktober 2025\nHier habe ich mit Clipchamp zum ersten Mal experimentiert und ein Video zu meinem Kurbeltheater erstellt.",
+        "illustrationDescription": "Video zum Kurbeltheater erstellt mit Clipchamp",
+        "imageUrl": "https://assets.api.bookcreator.com/OKJbC4h6iX8sUY31rolAdtMEZRJ80gRUPjR-YQJ2ZWw/books/LW5hQKD2Tk-NuyOxCSX3Iw/assets/2IhpG8gPTkS_yIF0RRd5BQ:m4v/000.jpg?width=653&height=367"
+      }
+    ],
+    "qualityChecksConfirmed": [
+      "proofread",
+      "structure",
+      "cover",
+      "media_quality",
+      "copyright",
+      "sources"
+    ]
+  }
+]

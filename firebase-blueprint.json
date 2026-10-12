@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "WorkItem": {
+      "title": "WorkItem",
+      "description": "Student work project in DIE SCAPES pullout program",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "title": { "type": "string", "maxLength": 200 },
+        "rubrikId": { "type": "string", "maxLength": 100 },
+        "authorId": { "type": "string", "maxLength": 100 },
+        "schoolYear": { "type": "string", "maxLength": 50 },
+        "creationTool": { "type": "string", "maxLength": 100 },
+        "summary": { "type": "string", "maxLength": 2000 },
+        "coverImage": { "type": "string" },
+        "projectUrl": { "type": "string" },
+        "fileUrl": { "type": "string" },
+        "fileName": { "type": "string" },
+        "fileSize": { "type": "number" },
+        "sources": { "type": "string", "maxLength": 2000 },
+        "audioNarration": { "type": "boolean" },
+        "pagesCount": { "type": "number" },
+        "tags": { "type": "array" },
+        "date": { "type": "string" },
+        "starsCount": { "type": "number" },
+        "qualityPassed": { "type": "boolean" },
+        "qualityChecksConfirmed": { "type": "array" },
+        "teacherNote": { "type": "string" },
+        "previewPages": { "type": "array" }
+      },
+      "required": ["id", "title", "rubrikId", "authorId", "creationTool"]
+    },
+    "Rubrik": {
+      "title": "Rubrik",
+      "description": "Topic shelf in DIE SCAPES library",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 100 },
+        "title": { "type": "string", "maxLength": 100 },
+        "description": { "type": "string", "maxLength": 500 },
+        "color": { "type": "string", "maxLength": 50 },
+        "iconName": { "type": "string", "maxLength": 50 },
+        "mediaType": { "type": "string", "maxLength": 50 },
+        "isCustom": { "type": "boolean" }
+      },
+      "required": ["id", "title", "color", "iconName", "mediaType"]
+    }
+  },
+  "firestore": {
+    "/works/{workId}": {
+      "schema": { "$ref": "#/entities/WorkItem" },
+      "description": "Public student works readable by anyone, writable by authenticated teacher"
+    },
+    "/rubriken/{rubrikId}": {
+      "schema": { "$ref": "#/entities/Rubrik" },
+      "description": "Categories and shelves readable by anyone, writable by authenticated teacher"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Scapestudio",
+  "description": "Die geschützte Mediathek für das Pulloutprogramm DIE SCAPES der Schule Saatlen. Werke aus Book Creator, Canva, Stop-Motion & Forschungsprojekten mit 6-Punkte Qualitätsstandard und Autoren-IDs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
